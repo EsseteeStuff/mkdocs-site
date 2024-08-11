@@ -1,4 +1,8 @@
-site_name: My Docs
+site_name: Essetee's help pages
+
+nav:
+  -Home: index.md
+  -Linux: linux.md
 
 theme:
   name: material
