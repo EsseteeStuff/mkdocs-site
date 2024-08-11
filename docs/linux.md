@@ -2,6 +2,6 @@
 
 ## Wat kan je hier vinden ?
 
-. Help voor linux
-. Code snippets
-. terminal commands
+- Help voor linux
+- Code snippets
+- terminal commands
