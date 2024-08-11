@@ -1,8 +1,8 @@
 site_name: Essetee's help pages
 
 nav:
-  -Home: index.md
-  -Linux: linux.md
+  - Home: index.md
+  - Linux: linux.md
 
 theme:
   name: material
