@@ -1,21 +1,17 @@
-# Welcome to MkDocs
+# Welkom
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Waarschijnlijk ben jij op mijn site terecht gekomen via een zoekmachine. Ik hou mij bezig met programmeren en moet soms ook gebruik maken van een zoekmachine.
 
-## Commands
+Single Board Computers (SBC) zijn ook een hobby van mij. Raspberry Pi SBC's hebben mijn voorkeur.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Alles onthouden is niet mogelijk. Dus moest ik regelmatig terug hetzefde item opzoeken. Om dat te voorkomen heb ik deze site aangemaakt. Noem het een geheugen steuntje voor mij.
 
-Toevoegen van een regel om het resultaat te zien.
+Zoals je weet, vind je veel info over een bepaalde zoekopdracht, maar bij jouw werkt dat niet precies zoals op die site. Het is soms nodig om zelf aanpassingen te doen, zodat het werkt.
 
-Veranderingen maken in de dev branche.
+Als desktop OS gebruik ik een op Debian gebaseerde versie, alsook als server. Dus alles wat je hier terug vindt over Linux is zodanig aangepast dat het werkt voor mijn systeem. Als jij Debian of een op Ubuntu gebaseerd OS gebruikt, zal het ook werken op jouw systeem. Gebruik je een ander OS, prima, maar dan moet je zelf maar aanpassen wat je hier vindt op de site. Soms staan config bestanden op een andere plaats of verschillen sommige daemons van naam. Bij debian gebaseerde systemen herstart je de webserver met restart apache2, op een fedora OS doe je dat met restart httpd. Onder debian staan de webserver config files onder /etc/apache2, bij Fedora /etc/httpd.
 
-## Project layout
+Ken uw systeem en pas aan wat je zoekt voor jouw systeem.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+Heb je specifieke vragen of voorstellen, neem gerust contact op.
+
+Cheers!
