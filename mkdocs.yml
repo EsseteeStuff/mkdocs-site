@@ -2,12 +2,10 @@ site_name: Essetee's help pages
 
 nav:
   - Home: index.md
-  - Linux: Linux/linux.md
-
-    - ssh zonder wactwoord: Linux/ssh.md
+  - Linux: linux.md
+  - 'ssh zonder wachtwoord': ssh.md
 
 
 theme:
   name: material
-
-logo: ./images/logo.png
+  logo: logo.png
