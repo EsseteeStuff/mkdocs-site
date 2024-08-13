@@ -4,6 +4,8 @@ nav:
   - Home: index.md
   - Linux: Linux/linux.md
 
+    - ssh zonder wactwoord: Linux/ssh.md
+
 
 theme:
   name: material
