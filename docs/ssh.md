@@ -74,12 +74,12 @@ Host bloem
 ```
 
 
-Nadat je het bestand hebt opgeslagen kan je nu gewoon # ssh bloem #  doen om te verbinden met die server. Veel makkelijker toch :) Dit bestand kan meerdere verschillende hosts bevatten. Voeg een blanco regel in en daaronder vul je dan een nieuwe host in.
+Nadat je het bestand hebt opgeslagen kan je nu gewoon **_ ssh bloem_** doen om te verbinden met die server. Veel makkelijker toch :) Dit bestand kan meerdere verschillende hosts bevatten. Voeg een blanco regel in en daaronder vul je dan een nieuwe host in.
 
 In het bestand /etc/ssh/sshd_config kan je deze zo aanpassen dat je enkel kan inloggen met een publieke sleutel. Eenmaal je een sleutel hebt, maak een backup van je .ssh folder en bewaar die zorgvuldig. Mocht je om één of andere reden je OS opnieuw installeren, plaats de backup van je ssh folder terug. Anders kan je nooit meer op afstand inloggen op een server waarvoor je deze sleutel gebruikt. En de .ssh folder is "for your eyes only" ! Dus doe het volgende:
 
 ```bash
-chmod -R 0600 .ssh
+chmod -R 0600 ~/.ssh
 ```
 
 Cheers!
