@@ -36,8 +36,7 @@ In mijn geval geeft dat:
 ```
 serge@debian:~/Downloads$ vboxmanage -v | cut -dr -f1
 7.0.20
- ```
-
+```
 Download de juiste versie van: [https://download.virtualbox.org/virtualbox/](https://download.virtualbox.org/virtualbox/)
 
 Ga dan naar de folder waar je het bestand hebt gedownload en geef het commando:
