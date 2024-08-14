@@ -6,7 +6,7 @@ Downloaden en importeren van de Oracle VirtualBox gpg sleutel.
 
 De VirtualBox repositry toevoegen.
 
-    ```bash
+   ```bash
      echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle_vbox_2016.gpg] http://download.virtualbox.org/virtualbox/debian bookworm contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
    ```
     
