@@ -1,8 +1,8 @@
-site_name: Essetee's help pages
+site_name: Essetee
 
 nav:
   - Home: index.md
-  - Linux:
+  - Linux Topics:
     - 'ssh met publieke sleutel': ssh.md
 
 
