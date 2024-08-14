@@ -1,20 +1,22 @@
-1. Downloaden en importeren van de Oracle VirtualBox gpg sleutel.
+Downloaden en importeren van de Oracle VirtualBox gpg sleutel.
    
    ```bash
     wget -O- -q https://www.virtualbox.org/download/oracle_vbox_2016.asc | sudo gpg --dearmour -o /usr/share/keyrings/oracle_vbox_2016.gpg
    ```
 
-2. De VirtualBox repositry toevoegen.
+De VirtualBox repositry toevoegen.
 
     ```bash
      echo "deb [arch=amd64 signed-by=/usr/share/keyrings/oracle_vbox_2016.gpg] http://download.virtualbox.org/virtualbox/debian bookworm contrib" | sudo tee /etc/apt/sources.list.d/virtualbox.list
    ```
+    
     Na het toevoegen geef het volgende commando in:
 
    ```bash
      sudo apt update && sudo apt install virtualbox-7.0
    ```
-3. Het extention pack installeren.
+   
+Het extention pack installeren.
 
     Het uitbreiden van VirtualBox met het extention pack voegt het volgende toe:
 
@@ -43,7 +45,7 @@ Ga dan naar de folder waar je het bestand hebt gedownload en geef het commando:
 ```bash
   sudo vboxmanage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.10.vbox-extpack
 ```
-4. Om gebruik te kunnen maken van de extensies moet de gebruiker in de groep vboxusers zitten. We doen dat als volgt:
+Om gebruik te kunnen maken van de de uitbreidingen moet de gebruiker in de groep vboxusers zitten. We doen dat als volgt:
 
   ```bash
     sudo usermod -aG vbosxusers JOUW_USER_NAAM
