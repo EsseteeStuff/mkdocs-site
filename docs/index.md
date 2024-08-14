@@ -1,4 +1,4 @@
-# ** Welkom**
+# Welkom
 
 Waarschijnlijk ben jij op mijn site terecht gekomen via een zoekmachine. Ik hou mij bezig met programmeren en moet soms ook gebruik maken van een zoekmachine.
 
