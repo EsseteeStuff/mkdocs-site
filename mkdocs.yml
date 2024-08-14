@@ -2,8 +2,8 @@ site_name: Essetee's help pages
 
 nav:
   - Home: index.md
-  - Linux: linux.md
-  - 'ssh met publieke sleutel': ssh.md
+  - Linux:
+    - 'ssh met publieke sleutel': ssh.md
 
 
 theme:
