@@ -5,6 +5,8 @@ nav:
   - Linux Topics:
     - 'ssh met publieke sleutel': ssh.md
     - 'Debian VirtualBox installatie': vboxdebian.md
+  - Python:
+    - 'QtDesigner': qtdesigner.md
 
 
 theme:

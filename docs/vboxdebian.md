@@ -42,12 +42,12 @@ Download de juiste versie van: [https://download.virtualbox.org/virtualbox/](htt
 Ga dan naar de folder waar je het bestand hebt gedownload en geef het commando:
 
 ```
-sudo vboxmanage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.10.vbox-extpack
+sudo vboxmanage extpack install Oracle_VM_VirtualBox_Extension_Pack-7.0.VERSIE.vbox-extpack
 ```
 Om gebruik te kunnen maken van de de uitbreidingen moet de gebruiker in de groep vboxusers zitten. We doen dat als volgt:
 
   ```
-  sudo usermod -aG vbosxusers JOUW_USER_NAAM
+  sudo usermod -aG vboxusers JOUW_USER_NAAM
   ```
 
 Reboot jouw computer en geniet van VirtualBox
@@ -55,5 +55,4 @@ Reboot jouw computer en geniet van VirtualBox
 
 
 Cheers!
-
 
