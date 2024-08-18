@@ -5,7 +5,7 @@ QtDesigner installeren.
 QtDesigner is een GUI applicatie die je kan gebruiken met een versie van PyQt of Pyside. Pyside6 is wat ik nu gebruik, aangezien dit de laatste versie van Pyside is bij het schrijven van deze tutorial. Ik gebruik debian als mijn OS en om designer te kunnen gebruiken heb je een python omgeving nodig. Om python te installeren op een debian based OS doe je als volgt:
 
 ```
-sudo apt install python3-full python3-dev python3-venv python3-wheel python3-toml
+sudo apt install python3-full python3-dev python3-pip python3-venv python3-wheel python3-toml
 ```
 
 Onder windows ga je naar de [python site](https://www.python.org/) en download je de laatste versie voor windows. Dan het gedownloade bestand uitvoeren en **BELANGRIJK**, zorg dat je op het eerste scherm de optie aanvinkt dat hij de PATH variabelen moet toevoegen!
