@@ -28,7 +28,7 @@ pip install virtualenv
 python -m venv .venv
 .venv/Scripts/activate
 pip install pyside6
-pysyde6-designer
+pyside6-designer
 ```
 
 Sluit nu qt-designer af en geef het commando **deactivate** om de virtuele omgeving te verlaten.
