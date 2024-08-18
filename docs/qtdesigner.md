@@ -21,7 +21,7 @@ pip install pyside6
 pyside6-designer
 ```
 
-Onder windows open je nu een powershell. Klik rechts op het startmenu en kies powershell. Dan geef je volgende commando's in:
+Onder windows open je nu een powershell. (Klik rechts op het startmenu en kies powershell) Dan geef je volgende commando's in:
     
 ```
 pip install virtualenv
