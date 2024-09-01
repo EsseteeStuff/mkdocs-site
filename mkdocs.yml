@@ -1,4 +1,14 @@
-site_name: My Docs
+site_name: Essetee
+
+nav:
+  - Home: index.md
+  - Linux Topics:
+    - 'ssh met publieke sleutel': ssh.md
+    - 'Debian VirtualBox installatie': vboxdebian.md
+  - Python:
+    - 'QtDesigner': qtdesigner.md
+
 
 theme:
   name: material
+  logo: logo.png
