@@ -6,7 +6,10 @@ nav:
     - 'ssh met publieke sleutel': ssh.md
     - 'Debian VirtualBox installatie': vboxdebian.md
   - Python:
+    - 'Python installeren onder Windows en Linux': install_python.md
+    - 'Een virtuele omgeving opzetten onder Windows en Linux': virtualenv.md
     - 'QtDesigner': qtdesigner.md
+    - 'Create a blank pyside6 Mainwindow': blank_template_pyside6_mainwindow.md
 
 
 theme:
