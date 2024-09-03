@@ -25,7 +25,7 @@ Om deze problemen te verhelpen, hebben ze de virtuele omgeving uitgevonden. Een 
     Open een terminal en geef de volgende commando's in:
 
     ```
-     mkdir Test
+    mkdir Test
     cd Test
     python3 -m venv .venv
     source .venv/bin/activate
