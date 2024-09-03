@@ -37,9 +37,9 @@ source .venv/bin/activate
 
     Er moet nu een middel zijn om deze virtuele omgeving door te geven naar anderen. Pip heeft daar een mechanisme voor. Geef het volgende commando in:
 
-    ```
-    pip freeze > requirements.txt
-    ```
+```
+pip freeze > requirements.txt
+```
 
     Als je nu dit bestand gaat openen zul je iets zien als:
 
@@ -59,9 +59,9 @@ MarkupSafe==2.1.5
 
     Dit bestand bevat nu alle python onderdelen en hun betreffende versies om te kunnen werken in deze omgeving. Met het volgende commando:
 
-    ```
-    pip install -r requirements.txt
-    ```
+```
+pip install -r requirements.txt
+```
 
     zullen alle nodige bibliotheken op een andere computer in een virtuele omgeving worden geinstalleerd. Het is dus belangrijk om het commando **pip freeze > requirements.txt** uit te voeren vooraleer je jouw project naar iemand anders stuurt. Als die dan op zijn computer in een virtuele omgeving de installatie uitvoert van het requirements.txt bestand, zal jou programma evengoed werken als op jouw computer.
 
