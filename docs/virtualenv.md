@@ -67,4 +67,5 @@ Om deze problemen te verhelpen, hebben ze de virtuele omgeving uitgevonden. Een 
 
 Hopelijk zie je het nut in van een virtuele omgeving in.
 
+
 Cheers!
