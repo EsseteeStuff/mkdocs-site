@@ -10,13 +10,13 @@ Om deze problemen te verhelpen, hebben ze de virtuele omgeving uitgevonden. Een 
 
     Open een powershell terminal en geef de volgende commando's in:
 
-    ```
-    mkdir Test
-    cd Test
-    pip install virtualenv
-    python -m venv .venv
-    .venv/Scripts/activate
-    ```
+```
+mkdir Test
+cd Test
+pip install virtualenv
+python -m venv .venv
+.venv/Scripts/activate
+```
 
     Je gaat nu zien dat je shell veranderd. In mijn geval **(.venv) PS C:\Users\serge\Test>**. (.venv) zal waarschijnlijk in het groen zijn. Alles wat je nu doet in deze omgeving zal enkel in deze omgeving werken, los van alle software op je computer.
 
@@ -24,12 +24,12 @@ Om deze problemen te verhelpen, hebben ze de virtuele omgeving uitgevonden. Een 
 
     Open een terminal en geef de volgende commando's in:
 
-    ```
-    mkdir Test
-    cd Test
-    python3 -m venv .venv
-    source .venv/bin/activate
-    ```
+```
+mkdir Test
+cd Test
+python3 -m venv .venv
+source .venv/bin/activate
+```
 
     Onder linux zal je nu ook de (.venv) zien verschijnen aan het begin van de shell.
 
@@ -43,19 +43,19 @@ Om deze problemen te verhelpen, hebben ze de virtuele omgeving uitgevonden. Een 
 
     Als je nu dit bestand gaat openen zul je iets zien als:
 
-    ```
-    Babel==2.15.0
-    certifi==2024.6.2
-    charset-normalizer==3.3.2
-    click==8.1.7
-    colorama==0.4.6
-    ghp-import==2.1.0
-    idna==3.7
-    Jinja2==3.1.4
-    Markdown==3.6
-    MarkupSafe==2.1.5
-    [...]
-    ```
+```
+Babel==2.15.0
+certifi==2024.6.2
+charset-normalizer==3.3.2
+click==8.1.7
+colorama==0.4.6
+ghp-import==2.1.0
+idna==3.7
+Jinja2==3.1.4
+Markdown==3.6
+MarkupSafe==2.1.5
+[...]
+```
 
     Dit bestand bevat nu alle python onderdelen en hun betreffende versies om te kunnen werken in deze omgeving. Met het volgende commando:
 
