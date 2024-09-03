@@ -8,7 +8,7 @@ Om deze problemen te verhelpen, hebben ze de virtuele omgeving uitgevonden. Een 
 
 1. _Windows_
 
-    Open een powershell terminal en geef de volgende commando's in:
+Open een powershell terminal en geef de volgende commando's in:
 
 ```
 mkdir Test
@@ -18,11 +18,11 @@ python -m venv .venv
 .venv/Scripts/activate
 ```
 
-    Je gaat nu zien dat je shell veranderd. In mijn geval **(.venv) PS C:\Users\serge\Test>**. (.venv) zal waarschijnlijk in het groen zijn. Alles wat je nu doet in deze omgeving zal enkel in deze omgeving werken, los van alle software op je computer.
+Je gaat nu zien dat je shell veranderd. In mijn geval **(.venv) PS C:\Users\serge\Test>**. (.venv) zal waarschijnlijk in het groen zijn. Alles wat je nu doet in deze omgeving zal enkel in deze omgeving werken, los van alle software op je computer.
 
 2. _Linux_
 
-    Open een terminal en geef de volgende commando's in:
+Open een terminal en geef de volgende commando's in:
 
 ```
 mkdir Test
@@ -31,17 +31,17 @@ python3 -m venv .venv
 source .venv/bin/activate
 ```
 
-    Onder linux zal je nu ook de (.venv) zien verschijnen aan het begin van de shell.
+Onder linux zal je nu ook de (.venv) zien verschijnen aan het begin van de shell.
 
 3. _De virtuele omgeving delen._
 
-    Er moet nu een middel zijn om deze virtuele omgeving door te geven naar anderen. Pip heeft daar een mechanisme voor. Geef het volgende commando in:
+Er moet nu een middel zijn om deze virtuele omgeving door te geven naar anderen. Pip heeft daar een mechanisme voor. Geef het volgende commando in:
 
 ```
 pip freeze > requirements.txt
 ```
 
-    Als je nu dit bestand gaat openen zul je iets zien als:
+Als je nu dit bestand gaat openen zul je iets zien als:
 
 ```
 Babel==2.15.0
@@ -57,13 +57,13 @@ MarkupSafe==2.1.5
 [...]
 ```
 
-    Dit bestand bevat nu alle python onderdelen en hun betreffende versies om te kunnen werken in deze omgeving. Met het volgende commando:
+Dit bestand bevat nu alle python onderdelen en hun betreffende versies om te kunnen werken in deze omgeving. Met het volgende commando:
 
 ```
 pip install -r requirements.txt
 ```
 
-    zullen alle nodige bibliotheken op een andere computer in een virtuele omgeving worden geinstalleerd. Het is dus belangrijk om het commando **pip freeze > requirements.txt** uit te voeren vooraleer je jouw project naar iemand anders stuurt. Als die dan op zijn computer in een virtuele omgeving de installatie uitvoert van het requirements.txt bestand, zal jou programma evengoed werken als op jouw computer.
+zullen alle nodige bibliotheken op een andere computer in een virtuele omgeving worden geinstalleerd. Het is dus belangrijk om het commando **pip freeze > requirements.txt** uit te voeren vooraleer je jouw project naar iemand anders stuurt. Als die dan op zijn computer in een virtuele omgeving de installatie uitvoert van het requirements.txt bestand, zal jou programma evengoed werken als op jouw computer.
 
 Hopelijk zie je het nut in van een virtuele omgeving in.
 
